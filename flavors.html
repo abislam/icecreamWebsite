@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Flavors</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="topnav" id="myTopnav">
+        <a href="index.html">Home</a>
+        <a href="flavors.html" class="active">Flavors</a>
+        <a href="contact.html">Contact</a>
+        <a href="about.html">About</a>
+        <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+            <i class="fa fa-bars"></i>
+        </a>
+    </div>
+
+    <div style="padding-left:16px">
+        <h1>Flavors</h1>
+    </div>
+
+
+    <div class="row">
+        <div class="column popup" onclick="myFunction()">
+            <img class="flavorImages" src="assets/flavorImages/icecream1.jpg" alt="Blue Flavor Ice Cream Image">
+            <span class="popuptext" id="myPopup">Flavor: Blue </br>Price: $2.99</span>
+
+        </div>
+        <div class="column popup">
+            <img class="flavorImages" src="assets/flavorImages/icecream2.jpg" alt="Chocolate Flavor Ice Cream Image">
+            <span class="popuptext" id="myPopup">Flavor: Chocolate </br>Price: $1.99</span>
+            <h2 alt="Chocolate Flavor Ice Cream Title">Flavor: Chocolate</h2>
+            <h3 alt="Price equals one ninety nine">Price: $1.99</h3>
+        </div>
+        <div class="column popup">
+            <img class="flavorImages" src="assets/flavorImages/icecream3.jpg" alt="Vanilla Flavor Ice Cream Image">
+            <span class="popuptext" id="myPopup">Flavor: Vanilla </br>Price: $1.99</span>
+            <h2 alt="Vanilla Flavor Ice Cream Title">Flavor: Vanilla</h2>
+            <h3 alt="Price equals one ninety nine">Price: $1.99</h3>
+        </div>
+        <div class="column popup">
+            <img class="flavorImages" src="assets/flavorImages/icecream4.jpg" alt="The Trio Flavor Ice Cream Image">
+            <span class="popuptext" id="myPopup">Flavor: The Trio </br>Price: $3.99</span>
+            <h2 alt="The Trio Flavor Ice Cream Title">Flavor: The Trio</h2>
+            <h3 alt="Price equals three ninety nine">Price: $3.99</h3>
+        </div>
+    </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <div class="container">
+        <a href="#" class="fa fa-facebook" alt="Link to company facebook"></a>
+        <a href="#" class="fa fa-twitter" alto="Link to company twitter"></a>
+        <a href="#" class="fa fa-google" alt="Link to company gmail"></a>
+        <a href="#" class="fa fa-linkedin" alt="Link to company linked in"></a>
+    </div>
+
+
+    <script>
+        // When the user clicks on div, open the popup
+        function myFunction() {
+            var popup = document.getElementById("myPopup");
+            popup.classList.toggle("show");
+        }
+    </script>
+
+
+</body>
+</html>
